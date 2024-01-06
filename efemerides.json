@@ -1,149 +1,631 @@
 {
-    "enero": [
-      { "dia": 1, "año": 1983, "descripcion": "Lanzamiento de ARPANET, la precursora de Internet, adopta el protocolo TCP/IP" },
-      { "dia": 10, "año": 1992, "descripcion": "Lanzamiento de Windows 3.1" },
-      { "dia": 15, "año": 2004, "descripcion": "Lanzamiento de Mozilla Firefox 1.0" },
-      { "dia": 21, "año": 2009, "descripcion": "Creación de Bitcoin" },
-      { "dia": 24, "año": 1984, "descripcion": "Apple lanza la primera Macintosh" },
-      { "dia": 27, "año": 2010, "descripcion": "Lanzamiento de la versión 2.0 de jQuery" },
-      { "dia": 30, "año": 2001, "descripcion": "Lanzamiento de Wikipedia" },
-      { "dia": 31, "año": 2009, "descripcion": "Lanzamiento de la versión 1.0 de Node.js" },
-      { "dia": 15, "año": 1997, "descripcion": "Lanzamiento de Internet Explorer 4.0" },
-      { "dia": 19, "año": 2012, "descripcion": "Lanzamiento de Raspberry Pi" }
-    ],
-    "febrero": [
-      { "dia": 4, "año": 2004, "descripcion": "Facebook se lanza como una red social para estudiantes universitarios" },
-      { "dia": 7, "año": 1997, "descripcion": "Lanzamiento de la versión 1.0 de PHP" },
-      { "dia": 14, "año": 2005, "descripcion": "Lanzamiento de YouTube" },
-      { "dia": 16, "año": 1995, "descripcion": "Lanzamiento de PHP 2.0" },
-      { "dia": 20, "año": 2003, "descripcion": "Lanzamiento de Proyecto GNU" },
-      { "dia": 24, "año": 2004, "descripcion": "Lanzamiento de la versión 1.0 de Django" },
-      { "dia": 28, "año": 1998, "descripcion": "Lanzamiento de Windows 98" },
-      { "dia": 29, "año": 2012, "descripcion": "Lanzamiento de PlayStation Vita" },
-      { "dia": 10, "año": 2004, "descripcion": "Lanzamiento de Ruby on Rails 0.8.0" },
-      { "dia": 11, "año": 2014, "descripcion": "Lanzamiento de AngularJS 1.3.0" }
-    ],
-    
-        "marzo": [
-          { "dia": 12, "año": 1989, "descripcion": "Tim Berners-Lee propone la idea de la World Wide Web" },
-          { "dia": 24, "año": 2001, "descripcion": "Lanzamiento de Java 1.4" },
-          { "dia": 28, "año": 2017, "descripcion": "Lanzamiento de React Native 0.42.0" },
-          { "dia": 4, "año": 1974, "descripcion": "Lanzamiento de la versión 0.1 de Linux" },
-          { "dia": 8, "año": 1994, "descripcion": "Lanzamiento de Netscape Navigator 1.0" },
-          { "dia": 14, "año": 2006, "descripcion": "Lanzamiento de Twitter" },
-          { "dia": 22, "año": 1993, "descripcion": "Lanzamiento de Intel Pentium Processor" },
-          { "dia": 29, "año": 2004, "descripcion": "Lanzamiento de Mozilla Firefox 0.8" },
-          { "dia": 31, "año": 1998, "descripcion": "Lanzamiento de Windows 98 Second Edition" },
-          { "dia": 18, "año": 2012, "descripcion": "Lanzamiento de PHP 5.4.0" }
-        ],
-        "abril": [
-          { "dia": 1, "año": 1976, "descripcion": "Lanzamiento de Apple" },
-          { "dia": 3, "año": 1973, "descripcion": "Martin Cooper realiza la primera llamada con un teléfono móvil" },
-          { "dia": 10, "año": 1996, "descripcion": "Lanzamiento de la primera versión de Ubuntu" },
-          { "dia": 16, "año": 1977, "descripcion": "Lanzamiento de Apple II, la primera computadora personal de Apple" },
-          { "dia": 23, "año": 2005, "descripcion": "Lanzamiento de la versión 1.0 de Ubuntu" },
-          { "dia": 26, "año": 1986, "descripcion": "Lanzamiento de Windows 1.0" },
-          { "dia": 30, "año": 2010, "descripcion": "Lanzamiento del iPad de Apple" },
-          { "dia": 6, "año": 1992, "descripcion": "Lanzamiento de Windows 3.1" },
-          { "dia": 8, "año": 2005, "descripcion": "Lanzamiento de Ruby on Rails 1.0" },
-          { "dia": 12, "año": 1999, "descripcion": "Lanzamiento de PHP 4.0" }
-        ],
-        "mayo": [
-          { "dia": 5, "año": 2001, "descripcion": "Lanzamiento de GNOME 1.4" },
-          { "dia": 9, "año": 1994, "descripcion": "Lanzamiento de Netscape Navigator 2.0" },
-          { "dia": 14, "año": 2005, "descripcion": "Lanzamiento de YouTube" },
-          { "dia": 20, "año": 1996, "descripcion": "Lanzamiento de Java 1.0" },
-          { "dia": 25, "año": 2011, "descripcion": "Lanzamiento de jQuery 1.6.4" },
-          { "dia": 29, "año": 1999, "descripcion": "Lanzamiento de Napster" },
-          { "dia": 31, "año": 2000, "descripcion": "Lanzamiento de Microsoft Windows 2000" },
-          { "dia": 7, "año": 2008, "descripcion": "Lanzamiento de Ruby on Rails 2.1.0" },
-          { "dia": 12, "año": 2011, "descripcion": "Lanzamiento de Python 3.2.0" },
-          { "dia": 19, "año": 2000, "descripcion": "Lanzamiento de Windows 2000 Professional" }
-        ],
-        "junio": [
-          { "dia": 8, "año": 2015, "descripcion": "Lanzamiento de Swift, el lenguaje de programación de Apple" },
-          { "dia": 12, "año": 2009, "descripcion": "Lanzamiento de la versión 1.0 de Node.js" },
-          { "dia": 16, "año": 1983, "descripcion": "Lanzamiento de MS-DOS 2.0" },
-          { "dia": 21, "año": 2012, "descripcion": "Lanzamiento de Google Drive" },
-          { "dia": 27, "año": 2017, "descripcion": "Lanzamiento de TensorFlow 1.2.0" },
-          { "dia": 3, "año": 1994, "descripcion": "Lanzamiento de Mac OS System 7" },
-          { "dia": 18, "año": 2019, "descripcion": "Lanzamiento de Python 3.8.0" },
-          { "dia": 24, "año": 2015, "descripcion": "Lanzamiento de Windows 10" },
-          { "dia": 30, "año": 2001, "descripcion": "Lanzamiento de Mac OS X 10.0" },
-          { "dia": 14, "año": 2005, "descripcion": "Lanzamiento de Ruby on Rails 0.14.0" }
-        ],
-        
-            "julio": [
-              { "dia": 3, "año": 2001, "descripcion": "Lanzamiento de la versión 1.0 de Mozilla Firefox" },
-              { "dia": 7, "año": 2009, "descripcion": "Instagram se lanza oficialmente" },
-              { "dia": 12, "año": 1997, "descripcion": "Lanzamiento de Internet Explorer 4.0" },
-              { "dia": 16, "año": 2002, "descripcion": "Lanzamiento de la versión 3.0 de GNOME" },
-              { "dia": 20, "año": 2013, "descripcion": "Lanzamiento de Apache Kafka 0.8.1" },
-              { "dia": 25, "año": 2005, "descripcion": "Lanzamiento de Ruby on Rails 0.14.0" },
-              { "dia": 29, "año": 1998, "descripcion": "Lanzamiento de Windows 98 Second Edition" },
-              { "dia": 31, "año": 2012, "descripcion": "Lanzamiento de Python 3.3.0" },
-              { "dia": 15, "año": 2000, "descripcion": "Lanzamiento de Windows ME" },
-              { "dia": 19, "año": 2014, "descripcion": "Lanzamiento de Docker 1.3.0" }
-            ],
-            "agosto": [
-              { "dia": 1, "año": 1991, "descripcion": "Tim Berners-Lee lanza la primera página web pública" },
-              { "dia": 6, "año": 1996, "descripcion": "Lanzamiento de Windows NT 4.0" },
-              { "dia": 10, "año": 2004, "descripcion": "Google sale a bolsa" },
-              { "dia": 15, "año": 2012, "descripcion": "Lanzamiento de Python 3.3.0" },
-              { "dia": 19, "año": 2005, "descripcion": "Lanzamiento de Ruby on Rails 1.0" },
-              { "dia": 24, "año": 2011, "descripcion": "Lanzamiento de jQuery 1.6.4" },
-              { "dia": 28, "año": 1998, "descripcion": "Lanzamiento de Windows 98 Second Edition" },
-              { "dia": 31, "año": 2008, "descripcion": "Lanzamiento de Ruby on Rails 2.1.0" },
-              { "dia": 9, "año": 2012, "descripcion": "Lanzamiento de Python 3.3.0" },
-              { "dia": 13, "año": 2015, "descripcion": "Lanzamiento de Windows 10" }
-            ],
-            "septiembre": [
-              { "dia": 1, "año": 1997, "descripcion": "Lanzamiento de la versión 1.0 de Akamai" },
-              { "dia": 6, "año": 2004, "descripcion": "Lanzamiento de Ubuntu 4.10 (Warty Warthog)" },
-              { "dia": 11, "año": 2011, "descripcion": "Lanzamiento de jQuery 1.6.4" },
-              { "dia": 16, "año": 1982, "descripcion": "Lanzamiento de la primera computadora Commodore 64" },
-              { "dia": 21, "año": 2003, "descripcion": "Lanzamiento de PHP 5.0.0" },
-              { "dia": 26, "año": 2000, "descripcion": "Lanzamiento de Windows ME" },
-              { "dia": 30, "año": 2014, "descripcion": "Lanzamiento de AngularJS 1.3.0" },
-              { "dia": 3, "año": 1995, "descripcion": "Lanzamiento de Windows 95" },
-              { "dia": 8, "año": 2005, "descripcion": "Lanzamiento de Ruby on Rails 0.14.0" },
-              { "dia": 12, "año": 2016, "descripcion": "Lanzamiento de Python 3.5.0" }
-            ],
-            "octubre": [
-              { "dia": 4, "año": 1956, "descripcion": "IBM introduce la primera computadora de disco duro" },
-              { "dia": 9, "año": 2001, "descripcion": "Lanzamiento de iPod de Apple" },
-              { "dia": 14, "año": 2014, "descripcion": "Lanzamiento de Docker 1.3.0" },
-              { "dia": 19, "año": 1991, "descripcion": "Lanzamiento de Windows NT 3.1" },
-              { "dia": 23, "año": 2001, "descripcion": "Lanzamiento de iPod de Apple" },
-              { "dia": 28, "año": 2005, "descripcion": "Lanzamiento de Ruby on Rails 0.14.0" },
-              { "dia": 31, "año": 2010, "descripcion": "Lanzamiento de Windows Phone 7" },
-              { "dia": 7, "año": 2001, "descripcion": "Lanzamiento de iPod de Apple" },
-              { "dia": 12, "año": 2014, "descripcion": "Lanzamiento de Docker 1.3.0" },
-              { "dia": 16, "año": 1995, "descripcion": "Lanzamiento de PHP 2.0" }
-            ],
-            "noviembre": [
-                { "dia": 1, "año": 1985, "descripcion": "Microsoft lanza Windows 1.0" },
-                { "dia": 6, "año": 2003, "descripcion": "Lanzamiento de Ruby on Rails 0.5.0" },
-                { "dia": 11, "año": 2012, "descripcion": "Lanzamiento de Android 4.2 (Jelly Bean)" },
-                { "dia": 16, "año": 1989, "descripcion": "Lanzamiento de Microsoft Office" },
-                { "dia": 21, "año": 2006, "descripcion": "Lanzamiento de PlayStation 3" },
-                { "dia": 26, "año": 2013, "descripcion": "Lanzamiento de Xbox One" },
-                { "dia": 30, "año": 2010, "descripcion": "Lanzamiento de jQuery 1.4.4" },
-                { "dia": 4, "año": 2008, "descripcion": "Lanzamiento de Android 1.0" },
-                { "dia": 9, "año": 2004, "descripcion": "Lanzamiento de Firefox 1.0" },
-                { "dia": 13, "año": 2015, "descripcion": "Lanzamiento de Python 3.5.0" }
-            ],
-            "diciembre": [
-                { "dia": 1, "año": 1996, "descripcion": "Lanzamiento de la versión 1.0 de Extensible Markup Language (XML)" },
-                { "dia": 6, "año": 2010, "descripcion": "Lanzamiento de Node.js 0.2.5" },
-                { "dia": 11, "año": 2015, "descripcion": "Lanzamiento de React Native 0.14.0" },
-                { "dia": 16, "año": 1947, "descripcion": "Lanzamiento de la computadora ENIAC" },
-                { "dia": 21, "año": 2010, "descripcion": "Lanzamiento de jQuery 1.4.4" },
-                { "dia": 26, "año": 1997, "descripcion": "Lanzamiento de la versión 1.0 de KDE" },
-                { "dia": 31, "año": 2014, "descripcion": "Lanzamiento de Docker 1.4.0" },
-                { "dia": 3, "año": 1989, "descripcion": "Lanzamiento de la versión 2.0 de Adobe Photoshop" },
-                { "dia": 8, "año": 2005, "descripcion": "Lanzamiento de Ruby on Rails 1.0" },
-                { "dia": 12, "año": 2019, "descripcion": "Lanzamiento de Python 3.8.0" }
-            ]
-            
-        }
+  "enero": [
+    {
+      "dia": 1,
+      "año": 1983,
+      "descripcion": "Lanzamiento de ARPANET, la precursora de Internet, adopta el protocolo TCP/IP"
+    },
+    {
+      "dia": 10,
+      "año": 1992,
+      "descripcion": "Lanzamiento de Windows 3.1"
+    },
+    {
+      "dia": 15,
+      "año": 2004,
+      "descripcion": "Lanzamiento de Mozilla Firefox 1.0"
+    },
+    {
+      "dia": 21,
+      "año": 2009,
+      "descripcion": "Creación de Bitcoin"
+    },
+    {
+      "dia": 24,
+      "año": 1984,
+      "descripcion": "Apple lanza la primera Macintosh"
+    },
+    {
+      "dia": 27,
+      "año": 2010,
+      "descripcion": "Lanzamiento de la versión 2.0 de jQuery"
+    },
+    {
+      "dia": 30,
+      "año": 2001,
+      "descripcion": "Lanzamiento de Wikipedia"
+    },
+    {
+      "dia": 31,
+      "año": 2009,
+      "descripcion": "Lanzamiento de la versión 1.0 de Node.js"
+    },
+    {
+      "dia": 15,
+      "año": 1997,
+      "descripcion": "Lanzamiento de Internet Explorer 4.0"
+    },
+    {
+      "dia": 19,
+      "año": 2012,
+      "descripcion": "Lanzamiento de Raspberry Pi"
+    },
+    {
+      "dia": 25,
+      "a�o": 1990,
+      "descripcion": "Lanzamiento PC"
+    }
+  ],
+  "febrero": [
+    {
+      "dia": 4,
+      "año": 2004,
+      "descripcion": "Facebook se lanza como una red social para estudiantes universitarios"
+    },
+    {
+      "dia": 7,
+      "año": 1997,
+      "descripcion": "Lanzamiento de la versión 1.0 de PHP"
+    },
+    {
+      "dia": 14,
+      "año": 2005,
+      "descripcion": "Lanzamiento de YouTube"
+    },
+    {
+      "dia": 16,
+      "año": 1995,
+      "descripcion": "Lanzamiento de PHP 2.0"
+    },
+    {
+      "dia": 20,
+      "año": 2003,
+      "descripcion": "Lanzamiento de Proyecto GNU"
+    },
+    {
+      "dia": 24,
+      "año": 2004,
+      "descripcion": "Lanzamiento de la versión 1.0 de Django"
+    },
+    {
+      "dia": 28,
+      "año": 1998,
+      "descripcion": "Lanzamiento de Windows 98"
+    },
+    {
+      "dia": 29,
+      "año": 2012,
+      "descripcion": "Lanzamiento de PlayStation Vita"
+    },
+    {
+      "dia": 10,
+      "año": 2004,
+      "descripcion": "Lanzamiento de Ruby on Rails 0.8.0"
+    },
+    {
+      "dia": 11,
+      "año": 2014,
+      "descripcion": "Lanzamiento de AngularJS 1.3.0"
+    }
+  ],
+  "marzo": [
+    {
+      "dia": 12,
+      "año": 1989,
+      "descripcion": "Tim Berners-Lee propone la idea de la World Wide Web"
+    },
+    {
+      "dia": 24,
+      "año": 2001,
+      "descripcion": "Lanzamiento de Java 1.4"
+    },
+    {
+      "dia": 28,
+      "año": 2017,
+      "descripcion": "Lanzamiento de React Native 0.42.0"
+    },
+    {
+      "dia": 4,
+      "año": 1974,
+      "descripcion": "Lanzamiento de la versión 0.1 de Linux"
+    },
+    {
+      "dia": 8,
+      "año": 1994,
+      "descripcion": "Lanzamiento de Netscape Navigator 1.0"
+    },
+    {
+      "dia": 14,
+      "año": 2006,
+      "descripcion": "Lanzamiento de Twitter"
+    },
+    {
+      "dia": 22,
+      "año": 1993,
+      "descripcion": "Lanzamiento de Intel Pentium Processor"
+    },
+    {
+      "dia": 29,
+      "año": 2004,
+      "descripcion": "Lanzamiento de Mozilla Firefox 0.8"
+    },
+    {
+      "dia": 31,
+      "año": 1998,
+      "descripcion": "Lanzamiento de Windows 98 Second Edition"
+    },
+    {
+      "dia": 18,
+      "año": 2012,
+      "descripcion": "Lanzamiento de PHP 5.4.0"
+    }
+  ],
+  "abril": [
+    {
+      "dia": 1,
+      "año": 1976,
+      "descripcion": "Lanzamiento de Apple"
+    },
+    {
+      "dia": 3,
+      "año": 1973,
+      "descripcion": "Martin Cooper realiza la primera llamada con un teléfono móvil"
+    },
+    {
+      "dia": 10,
+      "año": 1996,
+      "descripcion": "Lanzamiento de la primera versión de Ubuntu"
+    },
+    {
+      "dia": 16,
+      "año": 1977,
+      "descripcion": "Lanzamiento de Apple II, la primera computadora personal de Apple"
+    },
+    {
+      "dia": 23,
+      "año": 2005,
+      "descripcion": "Lanzamiento de la versión 1.0 de Ubuntu"
+    },
+    {
+      "dia": 26,
+      "año": 1986,
+      "descripcion": "Lanzamiento de Windows 1.0"
+    },
+    {
+      "dia": 30,
+      "año": 2010,
+      "descripcion": "Lanzamiento del iPad de Apple"
+    },
+    {
+      "dia": 6,
+      "año": 1992,
+      "descripcion": "Lanzamiento de Windows 3.1"
+    },
+    {
+      "dia": 8,
+      "año": 2005,
+      "descripcion": "Lanzamiento de Ruby on Rails 1.0"
+    },
+    {
+      "dia": 12,
+      "año": 1999,
+      "descripcion": "Lanzamiento de PHP 4.0"
+    }
+  ],
+  "mayo": [
+    {
+      "dia": 5,
+      "año": 2001,
+      "descripcion": "Lanzamiento de GNOME 1.4"
+    },
+    {
+      "dia": 9,
+      "año": 1994,
+      "descripcion": "Lanzamiento de Netscape Navigator 2.0"
+    },
+    {
+      "dia": 14,
+      "año": 2005,
+      "descripcion": "Lanzamiento de YouTube"
+    },
+    {
+      "dia": 20,
+      "año": 1996,
+      "descripcion": "Lanzamiento de Java 1.0"
+    },
+    {
+      "dia": 25,
+      "año": 2011,
+      "descripcion": "Lanzamiento de jQuery 1.6.4"
+    },
+    {
+      "dia": 29,
+      "año": 1999,
+      "descripcion": "Lanzamiento de Napster"
+    },
+    {
+      "dia": 31,
+      "año": 2000,
+      "descripcion": "Lanzamiento de Microsoft Windows 2000"
+    },
+    {
+      "dia": 7,
+      "año": 2008,
+      "descripcion": "Lanzamiento de Ruby on Rails 2.1.0"
+    },
+    {
+      "dia": 12,
+      "año": 2011,
+      "descripcion": "Lanzamiento de Python 3.2.0"
+    },
+    {
+      "dia": 19,
+      "año": 2000,
+      "descripcion": "Lanzamiento de Windows 2000 Professional"
+    }
+  ],
+  "junio": [
+    {
+      "dia": 8,
+      "año": 2015,
+      "descripcion": "Lanzamiento de Swift, el lenguaje de programación de Apple"
+    },
+    {
+      "dia": 12,
+      "año": 2009,
+      "descripcion": "Lanzamiento de la versión 1.0 de Node.js"
+    },
+    {
+      "dia": 16,
+      "año": 1983,
+      "descripcion": "Lanzamiento de MS-DOS 2.0"
+    },
+    {
+      "dia": 21,
+      "año": 2012,
+      "descripcion": "Lanzamiento de Google Drive"
+    },
+    {
+      "dia": 27,
+      "año": 2017,
+      "descripcion": "Lanzamiento de TensorFlow 1.2.0"
+    },
+    {
+      "dia": 3,
+      "año": 1994,
+      "descripcion": "Lanzamiento de Mac OS System 7"
+    },
+    {
+      "dia": 18,
+      "año": 2019,
+      "descripcion": "Lanzamiento de Python 3.8.0"
+    },
+    {
+      "dia": 24,
+      "año": 2015,
+      "descripcion": "Lanzamiento de Windows 10"
+    },
+    {
+      "dia": 30,
+      "año": 2001,
+      "descripcion": "Lanzamiento de Mac OS X 10.0"
+    },
+    {
+      "dia": 14,
+      "año": 2005,
+      "descripcion": "Lanzamiento de Ruby on Rails 0.14.0"
+    }
+  ],
+  "julio": [
+    {
+      "dia": 3,
+      "año": 2001,
+      "descripcion": "Lanzamiento de la versión 1.0 de Mozilla Firefox"
+    },
+    {
+      "dia": 7,
+      "año": 2009,
+      "descripcion": "Instagram se lanza oficialmente"
+    },
+    {
+      "dia": 12,
+      "año": 1997,
+      "descripcion": "Lanzamiento de Internet Explorer 4.0"
+    },
+    {
+      "dia": 16,
+      "año": 2002,
+      "descripcion": "Lanzamiento de la versión 3.0 de GNOME"
+    },
+    {
+      "dia": 20,
+      "año": 2013,
+      "descripcion": "Lanzamiento de Apache Kafka 0.8.1"
+    },
+    {
+      "dia": 25,
+      "año": 2005,
+      "descripcion": "Lanzamiento de Ruby on Rails 0.14.0"
+    },
+    {
+      "dia": 29,
+      "año": 1998,
+      "descripcion": "Lanzamiento de Windows 98 Second Edition"
+    },
+    {
+      "dia": 31,
+      "año": 2012,
+      "descripcion": "Lanzamiento de Python 3.3.0"
+    },
+    {
+      "dia": 15,
+      "año": 2000,
+      "descripcion": "Lanzamiento de Windows ME"
+    },
+    {
+      "dia": 19,
+      "año": 2014,
+      "descripcion": "Lanzamiento de Docker 1.3.0"
+    }
+  ],
+  "agosto": [
+    {
+      "dia": 1,
+      "año": 1991,
+      "descripcion": "Tim Berners-Lee lanza la primera página web pública"
+    },
+    {
+      "dia": 6,
+      "año": 1996,
+      "descripcion": "Lanzamiento de Windows NT 4.0"
+    },
+    {
+      "dia": 10,
+      "año": 2004,
+      "descripcion": "Google sale a bolsa"
+    },
+    {
+      "dia": 15,
+      "año": 2012,
+      "descripcion": "Lanzamiento de Python 3.3.0"
+    },
+    {
+      "dia": 19,
+      "año": 2005,
+      "descripcion": "Lanzamiento de Ruby on Rails 1.0"
+    },
+    {
+      "dia": 24,
+      "año": 2011,
+      "descripcion": "Lanzamiento de jQuery 1.6.4"
+    },
+    {
+      "dia": 28,
+      "año": 1998,
+      "descripcion": "Lanzamiento de Windows 98 Second Edition"
+    },
+    {
+      "dia": 31,
+      "año": 2008,
+      "descripcion": "Lanzamiento de Ruby on Rails 2.1.0"
+    },
+    {
+      "dia": 9,
+      "año": 2012,
+      "descripcion": "Lanzamiento de Python 3.3.0"
+    },
+    {
+      "dia": 13,
+      "año": 2015,
+      "descripcion": "Lanzamiento de Windows 10"
+    }
+  ],
+  "septiembre": [
+    {
+      "dia": 1,
+      "año": 1997,
+      "descripcion": "Lanzamiento de la versión 1.0 de Akamai"
+    },
+    {
+      "dia": 6,
+      "año": 2004,
+      "descripcion": "Lanzamiento de Ubuntu 4.10 (Warty Warthog)"
+    },
+    {
+      "dia": 11,
+      "año": 2011,
+      "descripcion": "Lanzamiento de jQuery 1.6.4"
+    },
+    {
+      "dia": 16,
+      "año": 1982,
+      "descripcion": "Lanzamiento de la primera computadora Commodore 64"
+    },
+    {
+      "dia": 21,
+      "año": 2003,
+      "descripcion": "Lanzamiento de PHP 5.0.0"
+    },
+    {
+      "dia": 26,
+      "año": 2000,
+      "descripcion": "Lanzamiento de Windows ME"
+    },
+    {
+      "dia": 30,
+      "año": 2014,
+      "descripcion": "Lanzamiento de AngularJS 1.3.0"
+    },
+    {
+      "dia": 3,
+      "año": 1995,
+      "descripcion": "Lanzamiento de Windows 95"
+    },
+    {
+      "dia": 8,
+      "año": 2005,
+      "descripcion": "Lanzamiento de Ruby on Rails 0.14.0"
+    },
+    {
+      "dia": 12,
+      "año": 2016,
+      "descripcion": "Lanzamiento de Python 3.5.0"
+    }
+  ],
+  "octubre": [
+    {
+      "dia": 4,
+      "año": 1956,
+      "descripcion": "IBM introduce la primera computadora de disco duro"
+    },
+    {
+      "dia": 9,
+      "año": 2001,
+      "descripcion": "Lanzamiento de iPod de Apple"
+    },
+    {
+      "dia": 14,
+      "año": 2014,
+      "descripcion": "Lanzamiento de Docker 1.3.0"
+    },
+    {
+      "dia": 19,
+      "año": 1991,
+      "descripcion": "Lanzamiento de Windows NT 3.1"
+    },
+    {
+      "dia": 23,
+      "año": 2001,
+      "descripcion": "Lanzamiento de iPod de Apple"
+    },
+    {
+      "dia": 28,
+      "año": 2005,
+      "descripcion": "Lanzamiento de Ruby on Rails 0.14.0"
+    },
+    {
+      "dia": 31,
+      "año": 2010,
+      "descripcion": "Lanzamiento de Windows Phone 7"
+    },
+    {
+      "dia": 7,
+      "año": 2001,
+      "descripcion": "Lanzamiento de iPod de Apple"
+    },
+    {
+      "dia": 12,
+      "año": 2014,
+      "descripcion": "Lanzamiento de Docker 1.3.0"
+    },
+    {
+      "dia": 16,
+      "año": 1995,
+      "descripcion": "Lanzamiento de PHP 2.0"
+    }
+  ],
+  "noviembre": [
+    {
+      "dia": 1,
+      "año": 1985,
+      "descripcion": "Microsoft lanza Windows 1.0"
+    },
+    {
+      "dia": 6,
+      "año": 2003,
+      "descripcion": "Lanzamiento de Ruby on Rails 0.5.0"
+    },
+    {
+      "dia": 11,
+      "año": 2012,
+      "descripcion": "Lanzamiento de Android 4.2 (Jelly Bean)"
+    },
+    {
+      "dia": 16,
+      "año": 1989,
+      "descripcion": "Lanzamiento de Microsoft Office"
+    },
+    {
+      "dia": 21,
+      "año": 2006,
+      "descripcion": "Lanzamiento de PlayStation 3"
+    },
+    {
+      "dia": 26,
+      "año": 2013,
+      "descripcion": "Lanzamiento de Xbox One"
+    },
+    {
+      "dia": 30,
+      "año": 2010,
+      "descripcion": "Lanzamiento de jQuery 1.4.4"
+    },
+    {
+      "dia": 4,
+      "año": 2008,
+      "descripcion": "Lanzamiento de Android 1.0"
+    },
+    {
+      "dia": 9,
+      "año": 2004,
+      "descripcion": "Lanzamiento de Firefox 1.0"
+    },
+    {
+      "dia": 13,
+      "año": 2015,
+      "descripcion": "Lanzamiento de Python 3.5.0"
+    }
+  ],
+  "diciembre": [
+    {
+      "dia": 1,
+      "año": 1996,
+      "descripcion": "Lanzamiento de la versión 1.0 de Extensible Markup Language (XML)"
+    },
+    {
+      "dia": 6,
+      "año": 2010,
+      "descripcion": "Lanzamiento de Node.js 0.2.5"
+    },
+    {
+      "dia": 11,
+      "año": 2015,
+      "descripcion": "Lanzamiento de React Native 0.14.0"
+    },
+    {
+      "dia": 16,
+      "año": 1947,
+      "descripcion": "Lanzamiento de la computadora ENIAC"
+    },
+    {
+      "dia": 21,
+      "año": 2010,
+      "descripcion": "Lanzamiento de jQuery 1.4.4"
+    },
+    {
+      "dia": 26,
+      "año": 1997,
+      "descripcion": "Lanzamiento de la versión 1.0 de KDE"
+    },
+    {
+      "dia": 31,
+      "año": 2014,
+      "descripcion": "Lanzamiento de Docker 1.4.0"
+    },
+    {
+      "dia": 3,
+      "año": 1989,
+      "descripcion": "Lanzamiento de la versión 2.0 de Adobe Photoshop"
+    },
+    {
+      "dia": 8,
+      "año": 2005,
+      "descripcion": "Lanzamiento de Ruby on Rails 1.0"
+    },
+    {
+      "dia": 12,
+      "año": 2019,
+      "descripcion": "Lanzamiento de Python 3.8.0"
+    }
+  ]
+}

@@ -1,12 +1,30 @@
 const express = require('express');
+const bodyParser = require('body-parser');
+const fs = require('fs');
 const app = express();
 const port = 3000;
-const bodyParser = require('body-parser');
 
+app.use(bodyParser.json());
 
-app.use(bodyParser.json()); // Middleware para parsear el cuerpo de las solicitudes en formato JSON
+let efemerides = loadEfemerides();
 
-const efemerides = require('./efemerides.json');
+function loadEfemerides() {
+  try {
+    const data = fs.readFileSync('efemerides.json', 'utf8');
+    return JSON.parse(data);
+  } catch (err) {
+    console.error('Error al cargar efemérides:', err.message);
+    return {};
+  }
+}
+
+function saveEfemerides() {
+  try {
+    fs.writeFileSync('efemerides.json', JSON.stringify(efemerides, null, 2), 'utf8');
+  } catch (err) {
+    console.error('Error al guardar efemérides:', err.message);
+  }
+}
 
 // Obtener todas las efemérides de un mes
 app.get('/:mes', (req, res) => {
@@ -29,6 +47,7 @@ app.post('/:mes', (req, res) => {
   }
 
   efemerides[mes].push(nuevaEfemeride);
+  saveEfemerides(); // Guardar efemérides después de agregar una nueva
   res.json(efemerides[mes]);
 });
 
@@ -40,6 +59,7 @@ app.put('/:mes/:indice', (req, res) => {
 
   if (efemerides[mes] && efemerides[mes][indice]) {
     efemerides[mes][indice] = actualizacionEfemeride;
+    saveEfemerides(); // Guardar efemérides después de la actualización
     res.json(efemerides[mes]);
   } else {
     res.status(404).send('Efeméride no encontrada');
@@ -53,6 +73,7 @@ app.delete('/:mes/:indice', (req, res) => {
 
   if (efemerides[mes] && efemerides[mes][indice]) {
     efemerides[mes].splice(indice, 1);
+    saveEfemerides(); // Guardar efemérides después de la eliminación
     res.json(efemerides[mes]);
   } else {
     res.status(404).send('Efeméride no encontrada');
@@ -60,24 +81,5 @@ app.delete('/:mes/:indice', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`La aplicación está corriendo en http://localhost:${port}`);
-});
-
-
-// módulo fs para leer el archivo JSON
-const fs = require('fs');
-const efemerides = require('./efemerides.json');
-
-app.get('/:mes', (req, res) => {
-  const mes = req.params.mes.toLowerCase();
-
-  if (efemerides[mes]) {
-    res.json(efemerides[mes]);
-  } else {
-    res.status(404).send('Mes no encontrado');
-  }
-});
-
- app.listen(port, () => {
   console.log(`La aplicación está corriendo en http://localhost:${port}`);
 });
